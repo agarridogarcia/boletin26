@@ -161,12 +161,11 @@ public class Bonoloto2 extends javax.swing.JFrame {
     }//GEN-LAST:event_Box4ActionPerformed
 
     private void sorteoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sorteoActionPerformed
- 
+       
         for(int i = 1; i<=6; i++)
-            System.out.println((int)(Math.random()*49 + 1));
-            area.setText("numeros sorteo: ");
-    
-
+            //System.out.println((int)(Math.random()*49 + 1));
+            
+        area.setText("numeros premiados: "+(int)(Math.random()*49 + 1)+" "+(int)(Math.random()*49 + 1)+" "+(int)(Math.random()*49 + 1)+" "+(int)(Math.random()*49 + 1)+" "+(int)(Math.random()*49 + 1)+" "+(int)(Math.random()*49 + 1));
     }//GEN-LAST:event_sorteoActionPerformed
 
     /**
