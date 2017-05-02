@@ -189,7 +189,7 @@ public class Bonoloto2 extends javax.swing.JFrame {
     }//GEN-LAST:event_sorteoActionPerformed
 
     private void comprobarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comprobarActionPerformed
-        if(sorteo==xogar)
+        if(sorteo.equals(xogar))
             
             area.setText("Gañaste o sorteo!");
         else
